@@ -1,72 +1,138 @@
-https://svn.baidu.com/dianquan/trunk
-relay01.baidu.com
+##点券开发备忘
+
+###svn地址
+
+```
+ 点券jsp目录：https://svn.baidu.com/dianquan/trunk/doubi/doubi.web/web/WEB-INF/pages
+ 特权jsp目录：https://svn.baidu.com/dianquan/trunk/dianquan-tequan/tequan-web/web/WEB-INF/pages
+ 点券静态资源目录： https://svn.baidu.com/dianquan/trunk/fe-project
+ 开发目录：https://svn.baidu.com/dianquan/trunk/fe-project/dev
+ 上线目录：https://svn.baidu.com/dianquan/trunk/fe-project/resources
+
+```
+
+###开发用机地址和密码
+
+
+ 
+```
+work@hz01-dianquan00.vm.baidu.com
+密码：qw1234W
+host：10.209.94.35
+静态地址： /home/work/web/ROOT/combinegame/cms/doubi/resource
+jsp地址： 
 
 ssh root@hz01-dianquan01.vm.baidu.com
-vm123@vrp
-
-/home/work/web/ROOT/combinegame/cms/doubi/resource
-
-
-ssh work@hz01-dianquan00.vm.baidu.com
-����qw1234W
-
-/home/work/local/dianquan8054/ROOT/WEB-INF/pages/cashier_v3/service
-
-/home/work/web/ROOT/combinegame/cms/doubi/resource/pay/v3.1/js
-
-���ϻ�����
-m1-game-iweb00.m1.baidu.com
-yf-game-iweb00.yf01.baidu.com��
-/home/work/web/combinegame/cms/doubi/resource/pay/v3/jsĿ¼
-����qw1234W
+密码：vm123@vrp
+host：10.209.94.36
+静态地址：/home/work/web/ROOT/combinegame/cms/doubi/resource/
 
 
+ssh work@m1-game-iweb00.m1.baidu.com
+ssh work@yf-game-iweb00.yf01.baidu.com
+密码：qw1234W
+host：线上 
+静态地址:/home/work/web/combinegame/cms/doubi/resource
 
-rm -rf 
-cp -r v3 v3.bak
+```
 
-vm123@vrp
-2ƽ̨
-test22
-test1234
+> 注意配置ssh中转地址: relay01.baidu.com, port: 22
 
+###配置host
 
-/home/work/web/combinegame/cms/doubi/resource/privilege/v1/
+```
+地址：C:\Windows\System32\drivers\etc\hosts
 
+#rd环境
 
-# rd ���Ի���
-#10.209.94.35		db.baidu.com
-10.209.94.36 		pay.baidu.com
-10.209.94.36 		test.pay.baidu.com
+#passport
 10.23.247.131 		passport.baidu.com
 
+#游戏
+10.209.94.36 		pay.baidu.com
 10.42.148.31    	youxi.baidu.com
-10.209.94.35		tequan.baidu.com
-#10.48.40.32 tequan.baidu.com
-
-
-
 10.42.148.31    	game.skycn.com
 10.42.148.31    	hao123qipai.baidu.com
 10.42.148.31    	wanhao123.baidu.com
 10.42.148.31    	chuanqi.baidu.com
 10.42.148.31     	wanba.baidu.com
+10.42.148.31		pk.baidu.com
 
-#qa����
-#10.94.25.17			pay.baidu.com
-#10.36.7.203			passport.baidu.com
-#10.46.8.89			youxi.baidu.com
-
-
-203.208.46.200	dl-ssl.google.com
+#特权
+10.209.94.35		tequan.baidu.com
 
 
 
-http://test.pay.baidu.com/cashier_desk.xhtml?productNo=1000001&platform=1&c=init
+#qa环境
 
-http://pay.baidu.com/cashier_v2.xhtml?c=init&currency=1&signMethod=1&charset=1&clientIp=127.0.0.1&sign=1&version=1.0&securityTimeStamp=1&pTypeId=7&productNo=1000002&userId=105000916&returnUrl=http%3A%2F%2Fcq01-testing-forum65.vm.baidu.com%3A8200%2Ftbmall%2FdubiretBuyTDIcon&pageUrl=http%3A%2F%2Ftieba.baidu.com%2Ftbmall%2Fhome&&iconId=100034&iconCount=1&memberId=1&memberCount=12&ext=something
-ë͢<maoting066> 2014-8-1 18:00:12
-406841815@qq.com suansuan
+#passport           
+10.36.7.203			passport.baidu.com
+
+#游戏
+10.94.25.17			pay.baidu.com
+10.46.8.89			youxi.baidu.com
+10.46.8.89			iyouxi.baidu.com
+10.48.40.32 		tequan.baidu.com
+
+#特权
+10.48.40.32 		tequan.baidu.com
 
 
+```
+
+###账号和密码
+
+```
+#rd环境
+
+账号：1036339815@qq.com
+密码：123123
+
+
+#qa环境
+
+账号：游戏测试_aa11
+密码：112358
+
+
+
+
+
+```
+
+ 
+ 
+###入口
+
+> [游戏入口]
+
+> [游戏ff14入口]
+
+
+
+
+License
+----
+
+MIT
+
+
+**Free Software, Hell Yeah!**
+
+[john gruber]:http://daringfireball.net/
+[@thomasfuchs]:http://twitter.com/thomasfuchs
+[1]:http://daringfireball.net/projects/markdown/
+[marked]:https://github.com/chjj/marked
+[Ace Editor]:http://ace.ajax.org
+[node.js]:http://nodejs.org
+[Twitter Bootstrap]:http://twitter.github.com/bootstrap/
+[keymaster.js]:https://github.com/madrobby/keymaster
+[jQuery]:http://jquery.com
+[@tjholowaychuk]:http://twitter.com/tjholowaychuk
+[express]:http://expressjs.com
+
+[jspSvnLink]: https://svn.baidu.com/dianquan/trunk/doubi/doubi.web/web/WEB-INF/pages
+
+[游戏入口]: pay.baidu.com/cashier_desk.xhtml?productNo=1000001&platform=1&c=init
+[游戏ff14入口]: http://pay.baidu.com/cashier_desk.xhtml?c=init&productNo=1000001&platform=15&gameId=892&productCode=24&productNumber=1
  
