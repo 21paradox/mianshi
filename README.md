@@ -111,6 +111,18 @@ host：线上
 
 
 
+
+###linux命令
+
+```
+新建组： sudo groupadd fe
+新建这个组的用户： sudo useradd -G fe shiwenzhe
+设置密码: passwd shiwenzhe
+改变文件夹组：sudo chgrp fe /home/work/web/ROOT/combinegame/cms/doubi/resource/
+
+```
+
+
 License
 ----
 
