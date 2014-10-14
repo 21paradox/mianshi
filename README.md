@@ -1,12 +1,23 @@
-dianquan-beiwang
-================
-面试题搜集
+##面试题搜集
 
-a = 0.1;
-b = 0.2;
-c = 0.3;
+Numbers
 
-(a + b) + c === a + (b + c) //false
+```javascript
+    a = 0.1; 
+    b = 0.2; 
+    c = 0.3;
+    
+    (a + b) + c === a + (b + c) //false 
+ 
+```
+
+```javascript
+
+    
+
+
+
+```
 
 
 NaN undefined null
