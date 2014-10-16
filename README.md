@@ -1,4 +1,6 @@
-##面试题搜集
+#面试题搜集
+
+##javascript
 
 ###Numbers
 
@@ -145,9 +147,38 @@ IIFE
 ```
 
 
-#### 这些还未完成
-prototype
+prorotype原形继承 
+```javascript
 
+
+
+var Vm= function(id){
+    this. id = id;
+}
+Vm.prototype.getGame = function(){
+    return $.ajax ...
+}
+
+//写一个Vm1 继承Vm
+var Vm1 = function(id,name){
+    this.name = name;
+}
+Vm1.prototype = new Vm('123');  
+
+
+//或者
+var Vm1 = function(id,name){
+    this.name = name;
+}
+
+Vm1.prototype =  Object.create(Vm);
+
+
+```
+
+
+
+####这些还未完成
 module pattern
 
 private variable
@@ -217,6 +248,40 @@ $.when $().end
 check if dom exists
 
 json
+
+ 
+ 
+##css
+
+
+inline 和 block的区别
+```css
+//分别用inline 和 block 实现居中效果
+
+#div1{
+    margin: 0 auto;
+    display: block; //块居中
+}
+
+span{
+    text-align: center; //文字居中
+}
+
+
+//float left 使元素从左向右排列
+//float right 使元素从有向左排列
+
+如何清除浮动
+
+clear: both  // overflow: auto
+
+
+会制作雪碧图吗 css sprite
+photoshop 选中图层，复制图层
+
+
+
+```
 
  
  
