@@ -195,7 +195,17 @@ inline 和 block的区别
 photoshop 选中图层，复制图层
 
 
+描述一下 css栅格系统
 
+css media query 
+
+响应式布局
+
+解释一下 bootstrap 的移动优先布局理念
+
+有使用过icon-font 吗？
+
+bootstrap 3 使用了box-sizing: border-box ，解释一下 border-box 和context-box区别
 ```
 
  
