@@ -9,7 +9,7 @@
     b = 0.2; 
     c = 0.3;
     
-    (a + b) + c === a + (b + c) //false 
+    (a + b) + c === a + (b + c) //false 为什么错了？
  
 ```
 
@@ -33,7 +33,7 @@ parseInt("08") === 0 // ie 8
 
 ### Array
 
-删除数组中的第二项 
+如何删除数组中的第二项 
 
 ```javascript
    var arr = ['a','b','c','d'];
@@ -47,7 +47,7 @@ parseInt("08") === 0 // ie 8
 如何检测 一个对象是不是数组呢
 ```javascript
     var arr = ['a','b']
-
+提示：
     typeof arr === 'object',
     typeof null === 'object'
     
@@ -56,7 +56,7 @@ parseInt("08") === 0 // ie 8
 
 
 ### Boolean
-
+说出下面的运算结果
 !!会把一个对象变成布尔值
 ```javascript
     !!false
@@ -91,7 +91,7 @@ arguments 对象
 
 ```javascript
     func() //直接调用
-    ..
+    	..
 	..
 	..
 ```
@@ -128,7 +128,7 @@ Vm.prototype.getGame = function(){
     return $.ajax ...
 }
 
- 
+写出一个继承 vm的例子
 
 ```
  
@@ -143,7 +143,7 @@ var a = [];
 
 funky(a);
 
- 
+ // a是多少？
 
 ```
 
@@ -157,6 +157,7 @@ var x =1, y = 2;
 
 swap(x,y)
 
+// x多少， y多少
  
 ```
 
@@ -171,22 +172,32 @@ jquery $.map $.extend $.ajax
 
 $.when $().end
 
-check if dom exists
+如何用jQuery检测这个dom是否存在页面
 
-json
+json的key和value可以用单引号吗？
 
- 
- 
+es6的let 定义变量和var的 区别
+
+
+
+##npm
+
+如何安装nodejs，linux服务器没有root权限如何安装？
+如何安装项目所有依赖？
+npm 项目中如何执行自定义脚本
+如何升级项目依赖的库？
+有使用过browserify吗，它有什么优点缺点？
+
+
 ##css
-
 
 inline 和 block的区别
 ```css
-//分别用inline 和 block 实现居中效果
+分别用inline 和 block 实现居中效果
  
 
-//float left 使元素从左向右排列
-//float right 使元素从有向左排列
+float left 使元素从左向右排列
+float right 使元素从有向左排列
 
 如何清除浮动
 
