@@ -13,7 +13,7 @@
  
 ```
 
-请说出下面运算式的结果
+请写出下面运算式的结果
 
 ```javascript
     5 / 5
@@ -56,7 +56,7 @@ parseInt("08") === 0 // ie 8
 
 
 ### Boolean
-说出下面的运算结果
+写出下面的运算结果
 !!会把一个对象变成布尔值
 ```javascript
     !!false
@@ -83,43 +83,14 @@ arguments 对象
 
 ```javascript
     //解释一下 arguments 对象 （存在于function中的）
- 
+ arguments对象和数据
 
 ```
 
-调用function的四种形式
-
-```javascript
-    func() //直接调用
-    	..
-	..
-	..
-```
-
-###闭包
-
-IIFE
-```javascript
-    //IIFE = Immediately-Invoked Function Expression.
-    //写一个 IIFE
-    
- 
- 
-```
-
-
-```javascript
-    //一个闭包的例子
-    
- 
-
-```
 
 
 prorotype原形继承 
 ```javascript
-
-
 
 var Vm= function(id){
     this. id = id;
@@ -167,12 +138,23 @@ swap(x,y)
 请写出一个函数 可以这样执行：assertPlus(3,2)(5) //(如果 3+2 === 5 ,返回 true,否则返回 false)
  
  
-
-jquery $.map $.extend $.ajax
-
-$.when $().end
+### jQuery相关
 
 如何用jQuery检测这个dom是否存在页面
+
+
+jQuery检测页面的元素是否可见？
+
+
+jQuery删除页面的元素和绑定事件
+
+
+jQuery请求2个接口，并且在2个接口返回之后 执行console.log
+   提示:可以用$.when
+
+
+上述问题如果用es6的Promise封装之后应该怎么写？
+
 
 json的key和value可以用单引号吗？
 
@@ -184,11 +166,15 @@ es6的let 定义变量和var的 区别
 
 如何安装nodejs，linux服务器没有root权限如何安装？
 
+
 如何安装项目所有依赖？
+
 
 npm 项目中如何执行自定义脚本
 
+
 如何升级项目依赖的库？
+
 
 有使用过browserify吗，它有什么优点缺点？
 
@@ -205,23 +191,33 @@ float right 使元素从有向左排列
 
 如何清除浮动
 
- 
-会制作雪碧图吗 css sprite
-photoshop 选中图层，复制图层
 
+写一个水平垂直居中的css样式
 
-描述一下 css栅格系统
-
-css media query 
-
-响应式布局
-
-解释一下 bootstrap 的移动优先布局理念
-
-有使用过icon-font 吗？
 
 bootstrap 3 使用了box-sizing: border-box ，解释一下 border-box 和context-box区别
 ```
+
+##svg
+
+svg坐标和html的区别
+
+
+svg的viewPort有什么特点，一般会在哪里使用到
+
+
+svg的 <g>如何布局，和div布局的区别
+
+
+angular/react中使用svg需要注意的，写一个svg时钟demo
+
+
+
+
+
+
+
+
 
  
  
